@@ -2,6 +2,17 @@
 * {
   box-sizing: border-box;
 }
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:visited {
+  color: rgb(68, 68, 68);
+  background-color: transparent;
+  text-decoration: none;
+}
+
 .nagłówek {
     background-color: #444444;
     color: #fff;
@@ -21,6 +32,7 @@
     width: 20%;
     background: #ccc;
     padding: 15px;
+    line-height: 50px;
     align-items: flex-start;}
 
 .nawigacja :hover{
@@ -108,7 +120,6 @@
       }
 
 }
-  }
 
 .nagłówek {
   background-color: #444444;
